@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+#boxContainer,
+#fourButtonContainer,
+#randomColorContainer {
+    margin: 20px 5px;
+    width: 98vw;
+    height: 200px;
+    background-color: honeydew;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#box1,
+.box3,
+.box4,
+.box5,
+.box6 {
+    margin: 10px 10px;
+    width: 100px;
+    height: 150px;
+    background-color: indigo;
+}
+
+#box1Button,
+#button1,
+#button2,
+#button3,
+#button4 {
+    margin: 10px 10px;
+    width: 100px;
+    height: 30px;
+}
+.box2 {
+    margin-top: 40px;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    background-color: lightcoral;
+}
+.box2width {
+    width: 50px;
+}
+.box2height {
+    height: 50px;
+}
+.box2center {
+    position: absolute;
+}
+.box2position {
+    margin-top: 0px;
+    position: relative;
+}
+header {
+    width: 100%;
+    background: #ffffff;
+    height: 60px;
+    border-bottom: 1px solid #dddddd;
+}
+.hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu {
+    font-weight: bold;
+    width: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid;
+}
+
+.menu li:hover {
+    display: block;
+    background: #ffffff;
+    padding: 15px 0 15px 0;
+    border-bottom: #dddddd 1px solid;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 0px;
+    color: #666;
+}
+
+.menu ul li a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #666;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #666;
+}
+header {
+    display: inline-block;
+    font-size: 12px;
+}
+#formContainer {
+    margin: 20px 5px;
+    width: 98vw;
+    height: 200px;
+    background-color: honeydew;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

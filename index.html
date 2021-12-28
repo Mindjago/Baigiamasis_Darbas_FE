@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baigiamasis darbas FE</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Fron-End Baigiamasis darbas</h1>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </header>
+    <div class="menu">
+        <ul>
+          <a href="#sec1"><li>Question 1</li></a>
+          <a href="#sec2"><li>Question 2</li></a>
+          <a href="#sec4"><li>Question 4</li></a>
+          <a href="#sec5"><li>Question 5</li></a>
+        </ul>
+      </div>
+      <section id="sec1">
+          <h3>1.	Paspaudus ant mygtuko, puslapyje esantis div atsiranda/pranyksta</h3>
+    <div id="boxContainer">
+        <button id="box1Button">Show/Hide</button>
+        <div id="box1"></div>
+    </div>
+</section>
+<section id="sec2">
+    <h3>2.	Turit vieną div, su aukščiu,pločiu ir spalva bei 4 mygtukus, su kuriais galit valdyt sukurto div savybes: plotis, aukstis, centravimas ir pozicija</h3>
+    <div id="fourButtonContainer">
+        <button id="button1">Width</button>
+        <button id="button2">Heigth</button>
+        <button id="button3">Center</button>
+        <button id="button4">Position</button>
+        <div class="box2"></div>
+    </div>
+</section>
+<section id="sec4">
+    <h3>4.	Bent 4 div elementai, pradžioje visi juodos spalvos, paspaudus bent ant vieno iš jų, yra pakeičiamos spalvos visiems. Spalvos generuojamos random.</h3>
+    <div id="randomColorContainer">
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+</section>
+<section id="sec5">
+    <h3>5.	Formoje pildoma "vardas", "pavardė" ir "gimimo data". Duomneys kaupiami lentelėje. Stulpeliai: Eil. Nr., Vardas, Pavardė, Amžius.</h3>
+    <div id="formContainer">
+        <form class="form" action="">
+            <label for="firstName">Name</label>
+            <input type="text" name="firstName">
+            <label for="lastName">Surname</label>
+            <input type="text" name="lastName">
+            <label for="age">Age</label>
+            <input type="age" name="age">
+            <input type="submit" id="submit" value="Ivest">
+        </form>
+        <ol id="list">
+        </ol>
+    </div>
+</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
